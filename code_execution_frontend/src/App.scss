@@ -1,0 +1,8 @@
+.Platform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  .CodeEditor {
+    flex-grow: 2;
+  }
+}
