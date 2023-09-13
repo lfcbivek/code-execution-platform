@@ -6,7 +6,7 @@ function CodeEditor() {
     return(
         <div className='CodeEditor'>
             <Editor 
-                height="80vh"
+                height="75vh"
                 defaultLanguage="javascript" 
                 defaultValue="// some comment" 
                 theme="vs-dark"

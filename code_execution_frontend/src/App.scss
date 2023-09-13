@@ -1,8 +1,18 @@
 .Platform {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  .CodeEditor {
-    flex-grow: 2;
+  .VerticalOptions {
+    display: flex;
+    justify-content: space-evenly;
+    .CodeEditor {
+      flex-grow: 2;
+    }
+    .ScratchPad {
+      width: 30vw;
+      height: 75vh;
+      background-color: navy;
+    }
+  }
+  .CodeDebugger {
+    width: 100vw;
+    background-color: red;
   }
 }
