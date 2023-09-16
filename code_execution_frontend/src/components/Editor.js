@@ -2,7 +2,7 @@ import React from 'react';
 import Editor from '@monaco-editor/react';
 import './Editor.scss'
 
-function CodeEditor() {
+const CodeEditor = () => {
     return(
         <div className='CodeEditor'>
             <Editor 
